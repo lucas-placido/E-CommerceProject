@@ -7,7 +7,7 @@ aws_secret_key = os.getenv("AWS_SECRET_ACCESS_KEY")
 aws_region = os.getenv("AWS_REGION")
 
 # Nome do bucket S3 onde você deseja fazer o upload dos arquivos
-bucket_name = os.getenv("bucket_name")
+bucket_name = "bronze-layer-283764"
 
 # Configuração do cliente S3
 session = boto3.Session(aws_access_key_id=aws_key,
