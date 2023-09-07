@@ -33,7 +33,7 @@ resource "aws_iam_role" "aws_glue_role" {
   })
 
   tags = {
-    description = "allow glue to access s3 bucket, write cloudwatch logs"
+    description = "allow-glue-access-s3-cloudwatch"
   }
 }
 
